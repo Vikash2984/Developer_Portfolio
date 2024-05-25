@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Poppins:wght@400;600;700&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css">
+    
+    <title>MyPortFolio</title>
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vikash's portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <secction class="firstsection">
+        <div class="leftsection">
+
+          <div class="leftsection-text">
+            <div>Hi, My name is <span class="text-purple">Vikash Kumar Pandey</span></div>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        
+        <div class="buttons">
+          <button id="cvBtn"> <i class="fa-solid fa-file-arrow-down"></i> Download Resume</button>
+          <button id="gitBtn">visit <i class="fa-brands fa-github"></i> <b>GitHub</b></button>
+        </div>
+
+        </div>
+
+        <div class="rightsection">
+          <img src="/img/backgroung.png" alt="" />
+        </div>
+      </secction>
+      <hr />
+      <section class="secondsection">
+        <div class="experience">
+          <i class="fa-solid fa-briefcase"></i>
+          <h1>Experience</h1>
+        </div>
+        <span class="text-grey">What all I have done so far</span>
+        <div class="timeline">
+          <div class="vertical">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div class="vertical-text-title">
+              Web Development & Design Intern <br> <a href="">Oasis Infobytes</a> <br> (May 2024)
+            </div>
+            <div class="vertical-text-desc">
+              As a web development and design intern at Oasis Infobytes, I gained hands on experience in HTML, CSS and JavaScript creating visually appealing web pages. I developed my skills in layout design, styling, and ensuring cross-browser compatibility for seamless user experiences.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <i class="fa-regular fa-building"></i>
+            <div class="vertical-text-title">
+              Co-founder • Creative Manager <br> <a href="">DEPRESSIFY</a> <br> (July 2023)
+            </div>
+            <div class="vertical-text-desc">
+              As Creative Manager and Co-founder, I've led cross-functional teams and hosted a talk show featuring a counseling psychologist and an RCI (Rehabilitation council of India) certified clinical psychologist. My role involved creative design, content development, and fostering interdisciplinary collaboration.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="foot-panel1">Back to Top</div>
+
+      <div class="foot-panel4">
+        <ul>
+          <div>
+            <p>Vikash's</p>
+            <a>Developer Portfolio</a>
+          </div>
+        </ul>
+
+        <ul>
+          <div>
+            <p>Home</p>
+            <a>Return to the</a>
+            <a>Landing page</a>
+          </div>
+        </ul>
+
+        <ul>
+          <div>
+            <p>About</p>
+            <a>Know more</a>
+            <a>about me</a>
+          </div>
+        </ul>
+
+        <ul>
+          <div>
+            <p>Services</p>
+            <a>Professional Services</a>
+            <a>at Your Fingertips</a>
+          </div>
+        </ul>
+
+        <ul>
+          <div>
+            <p>Contact</p>
+            <a>Reach out</a>
+            <a>to me</a>
+          </div>
+        </ul>
+      </div>
+
+      <div class="foot-panel5">
+        <div class="pages">
+          <a>Conditions of Use & Sale</a>
+          <a>Privacy Notice</a>
+          <a>Intrest-Based Ads</a>
+        </div>
+
+        <div class="copyright">
+          © 2024, Vikash's portfolio.com
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Database Administrator",
+          "Graphic Designer",
+          "Engineer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

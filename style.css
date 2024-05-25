@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(189, 150, 224);
+    font-size: 1rem;
+  }
+  .left {
+    font-size: 3.5rem;
+    font-family: satisfy;
+    color: #bfbfdc;
+    margin-top: 19px;
+    text-shadow: 3px 4px 7px rgba(85, 85, 36, 0.8);
+
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+    height: 19rem;
+  }
+  .firstsection > div {
+    width: 50%;
+  }
+  .leftsection {
+    font-size: 1.92rem;
+  }
+  .leftsection-text{
+    margin-left: 4rem
+
+  }
+  .buttons{
+    margin-top: 1rem;
+    margin-left: 4.1rem;
+  }
+  #cvBtn{
+    padding: 10px;
+    background-color: rgb(18, 18, 62);
+    color: white;
+    border: 2px solid;
+    border-color: rgb(170, 107, 228);
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#cvBtn:hover{
+ background-color: rgb(0, 0, 33);   
+ color:rgb(170, 107, 228);
+}
+#gitBtn{
+    padding: 10px;
+    margin-left: 0.5rem;
+    background-color: black;
+    color: white;
+    border: 2px dashed;
+    border-color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#gitBtn:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+  .rightsection {
+    width: 30%;
+  }
+  .rightsection img {
+        width: 65%;
+margin-left: 7rem;
+  }
+
+
+  /* Utility classes */
+  .text-purple {
+    color: rgb(170, 107, 228);
+  }
+  .text-grey {
+    color: gray;
+    font-size: small;
+  }
+  .vertical-text-title {
+    position: relative;
+    top: 30px;
+    width: 275px;
+  }
+  .vertical-text-title a {
+    text-decoration: none;
+color: white;
+  }
+  .vertical-text-title a:hover {
+    color: rgb(189, 150, 224);
+  }
+  .vertical-text-desc {
+    position: relative;
+    top: 40px;
+    color: gray;
+    width: 206px;
+    font-size: 9px;
+  }
+
+  #element {
+    color: rgb(170, 107, 228);
+  }
+  .secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 65vh;
+  }
+  main hr {
+    border: 0;
+    background: rgb(189, 150, 224);
+    height: 0.4px;
+    margin: 20px 60px;
+  }
+  .experience {
+    display: flex;
+  }
+  .experience i {
+    font-size: 1.9rem;
+    margin-top: 7px;
+    margin-right: 10px;
+  }
+  .secondsection h1 {
+    font-size: 1.9rem;
+  }
+  .timeline {
+    background: white;
+    width: 78vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+  }
+  .vertical {
+    height: 55px;
+    width: 1.5px;
+    background-color: white;
+    margin: 0 227.5px;
+  }
+  .vertical i {
+    position: relative;
+    font-size: 24px;
+    top: -30px;
+    left: -9px;
+  }
+
+
+  /* Footer starts */
+  footer {
+    margin-top: 15px;
+  }
+
+  .foot-panel1 {
+    background-color: rgb(18, 18, 62);
+    color: white;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+  }
+
+  .foot-panel1:hover {
+    background-color: rgb(32, 32, 69);
+  }
+
+  .foot-panel4 {
+    background-color: #0e0e1a;
+    color: white;
+    height: 95px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .foot-panel4 ul {
+    margin-top: 15px;
+  }
+
+  .foot-panel4 ul :hover {
+    text-decoration: underline;
+  }
+
+  .foot-panel4 p {
+    margin-top: 15px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  .foot-panel4 a {
+    display: block;
+    color: #afaeae;
+    font-size: 0.65rem;
+  }
+
+  .foot-panel5 {
+    background-color: #0e0e1a;
+    color: white;
+    height: 120px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .pages {
+    padding-top: 25px;
+  }
+
+  .pages a {
+    margin-left: 10px;
+  }
+
+  .pages a:hover {
+    text-decoration: underline;
+  }
+
+  .copyright {
+    padding: 5px;
+  }
